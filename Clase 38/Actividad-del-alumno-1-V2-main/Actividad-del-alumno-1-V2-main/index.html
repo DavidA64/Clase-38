@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="js/ClaseForm.js"></script> 
+    <script src="js/ClaseGame.js"></script> 
+    <script src="js/ClasePlayer.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyADWMqynaPjGPzM1u9zAIv9-f4wjI-fke8",
+  authDomain: "carrera-de-cohces.firebaseapp.com",
+  databaseURL:"https://carrera-de-cohces-default-rtdb.firebaseio.com/",
+  projectId: "carrera-de-cohces",
+  storageBucket: "carrera-de-cohces.appspot.com",
+  messagingSenderId: "185348150968",
+  appId: "1:185348150968:web:ed1a12ad53d51af952864d"
+};
+      // La configuración de Firebase de tu aplicación werb.
+      //agregar aquí
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
